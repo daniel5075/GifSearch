@@ -1,7 +1,7 @@
 // vars
 var topics = ["WTF", "OMG", "You've Got This", "I'm the Man",
-    "Winning", "Damn", "Are You Serious", "Happy Feet", "We are the Champions",
-    "I'm Sick", "Hangry", "Namaste", "Time to Go", "Morning Already", "Why Am I Here"];
+    "Winning", "Damn I Look Good", "Are You Serious", "Happy Feet", "We are the Champions",
+    "I'm Sick of it", "Hangry", "Namaste", "Time to Go", "Morning Already", "Why Am I Here"];
 var topic = "";
 var apiKey = "DfbUv8enI65mMRcdIEtYZdtlzyxtxJPY";
 // var saying = "";
@@ -22,7 +22,7 @@ function displayGif() {
             var results = response.data;
             for (var i = 0; i < results.length; i++) {
                 var gifDiv = $("<div>");
-                var gifRating = $("<p>").text("Rating: " + results[i].rating);
+                var gifRating = $("<div>").text("Rating: " + results[i].rating);
                 var gifImage = $("<img>");
                 gifImage.attr("class", "gif");
                 gifImage.attr("src", results[i].images.fixed_height_still.url)

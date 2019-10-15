@@ -1,0 +1,14 @@
+button{
+       text-align: center;
+        background-color: aquamarine;
+        padding: 1%;
+        font-size: 16px;
+       border-radius: 30%;
+       border: 7px solid white;
+   
+       
+}
+button:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
