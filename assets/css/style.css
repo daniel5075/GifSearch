@@ -1,4 +1,4 @@
-button{
+button, #add-saying{
        text-align: center;
         background-color: aquamarine;
         padding: 1%;
@@ -8,7 +8,7 @@ button{
    
        
 }
-button:hover{
+button:hover, #add-saying:hover{
     background-color: #4CAF50; /* Green */
     color: white;
 }
