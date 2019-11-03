@@ -10,7 +10,7 @@ var apiKey = "DfbUv8enI65mMRcdIEtYZdtlzyxtxJPY";
 
 function displayGif() {
     var rawName = $(this).attr("data-name");
-    var gifName = (rawName.replace(/\s/g, "."));
+    var gifName = (rawName.replace(/\s+/g, "."));
     var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=" + apiKey + "&q=" + gifName + "&limit=10&rating=PG&lang=en&offest=0"
     console.log(queryURL)
     $.ajax({
