@@ -8,3 +8,5 @@ Button press triggers AJAX call to GIPHY API to retrieve 10 GIFs relating to the
 a Form fascilitates addition of new character buttons.
 GIFs can be toggled between animated and still by clicking on them
 Uses Jquery and AJAX for GIPHY API calls
+
+Link to game: https://daniel5075.github.io/GifSearch/
